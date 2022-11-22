@@ -4,7 +4,8 @@
     "description": "Workmotion (www.workmotion.com) is a global HR platform enabling companies to hire & onboard their employees internationally, at the push of a button. It is our mission to create opportunities for anyone to work from anywhere. As work is becoming even more global and remote, there has never been a bigger chance to build a truly global HR-tech company.",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "compile": "cd client && npm run compile && cd ../server && npm run compile",
+        "lint": "eslint --ext .ts,.tsx,.js,.jsx ./client/src ./server/src"
     },
     "repository": {
         "type": "git",
@@ -12,6 +13,24 @@
     },
     "author": "József Varga (joshanoid@gmail.com)",
     "license": "ISC",
+    "devDependencies": {
+        "@babel/eslint-parser": "7.18.9",
+        "@typescript-eslint/eslint-plugin": "5.33.1",
+        "@typescript-eslint/parser": "5.33.1",
+        "eslint": "8.22.0",
+        "eslint-config-airbnb": "19.0.4",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-import-resolver-typescript": "3.5.0",
+        "eslint-module-utils": "2.7.4",
+        "eslint-plugin-functional": "4.2.2",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-jsx-a11y": "6.6.1",
+        "eslint-plugin-prettier": "4.2.1",
+        "eslint-plugin-react": "7.30.1",
+        "eslint-plugin-react-hooks": "4.6.0",
+        "eslint-plugin-unicorn": "43.0.2",
+        "prettier": "2.7.1"
+    },
     "bugs": {
         "url": "https://github.com/joshanoid/workmotion-frontend-challenge/issues"
     },
