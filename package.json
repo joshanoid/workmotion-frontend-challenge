@@ -6,7 +6,8 @@
     "scripts": {
         "compile": "cd client && npm run compile && cd ../server && npm run compile",
         "lint": "eslint --ext .ts,.tsx,.js,.jsx ./client/src ./server/src",
-        "start-server": "cd server && npm run start"
+        "start-server": "cd server && npm run start",
+        "start-client": "cd client && npm run start"
     },
     "repository": {
         "type": "git",
