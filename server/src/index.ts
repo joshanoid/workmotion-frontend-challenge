@@ -5,7 +5,7 @@ import * as cors from 'cors'
 import employees from './routes/employees'
 
 const app = express()
-const allowedOrigins = ['http://localhost:8080']
+const allowedOrigins = ['http://localhost:3000']
 
 const options: cors.CorsOptions = {
     origin: allowedOrigins,
@@ -15,7 +15,7 @@ app.use(cors(options))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(employees)
 
-const { PORT = 3000 } = process.env
+const { PORT = 3001 } = process.env
 
 app.listen(PORT, () => {
     // eslint-disable-next-line no-console
