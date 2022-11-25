@@ -12,6 +12,7 @@ const options: cors.CorsOptions = {
 }
 
 app.use(cors(options))
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(employees)
 
