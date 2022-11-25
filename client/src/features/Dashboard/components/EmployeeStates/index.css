@@ -7,6 +7,10 @@
     margin: 0px !important;
 }
 
+.EmployeeStates-ButtonGroup .MuiToggleButton-root:not(:first-child) {
+    padding-left: 20px;
+}
+
 .EmployeeStates-ButtonGroup .MuiToggleButton-root:not(:last-child):hover:after {
     border-right: 2px solid #f5f5f5;
     border-top: 2px solid #f5f5f5;
@@ -30,6 +34,24 @@
     border-top: 2px solid #eceef1;
     background: white;
     z-index: 2;
-    -webkit-clip-path: polygon(0px 0px, 0px calc(100% - 2px), calc(100% - 2px) calc(100% - 2px));
-    clip-path: polygon(0px 0px, 0px calc(100% - 2px), calc(100% - 2px) calc(100% - 2px));
+    -webkit-clip-path: polygon(calc(100%) calc(100%), calc(100%) 0px, 0px 0px);
+    clip-path: polygon(calc(100%) calc(100%), calc(100%) 0px, 0px 0px);
+}
+
+.EmployeeStates-ButtonGroup .MuiToggleButton-root.Mui-selected,
+.EmployeeStates-ButtonGroup .MuiToggleButton-root.Mui-selected:hover {
+    background-color: #0056d9;
+    color: white;
+}
+
+.EmployeeStates-ButtonGroup .MuiToggleButton-root.Mui-selected:after {
+    background-color: #0056d9;
+    border-right: 2px solid #0056d9;
+    border-top: 2px solid #0056d9;
+}
+
+.EmployeeStates-ButtonGroup .MuiToggleButton-root.Mui-selected:not(:last-child):hover:after {
+    background-color: #0056d9;
+    border-right: 2px solid #0056d9;
+    border-top: 2px solid #0056d9;
 }

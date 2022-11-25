@@ -12,3 +12,8 @@ export type Employee = {
 }
 
 export type Employees = ReadonlyArray<Employee>
+
+export type ChangeEmployeeStatePayload = {
+    id: number
+    state: EmployeeState
+}
