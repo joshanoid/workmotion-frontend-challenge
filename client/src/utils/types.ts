@@ -7,7 +7,6 @@ export type Employee = {
     first_name: string
     last_name: string
     email: string
-    gender: 'Female' | 'Male'
     state: EmployeeState
 }
 

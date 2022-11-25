@@ -17,7 +17,6 @@ export const Employees = () => {
                         <TableCell>First Name</TableCell>
                         <TableCell align="right">Last Name</TableCell>
                         <TableCell align="right">Email</TableCell>
-                        <TableCell align="right">Gender</TableCell>
                         <TableCell align="right">State</TableCell>
                     </TableRow>
                 </TableHead>
@@ -29,7 +28,6 @@ export const Employees = () => {
                             </TableCell>
                             <TableCell align="right">{row.last_name}</TableCell>
                             <TableCell align="right">{row.email}</TableCell>
-                            <TableCell align="right">{row.gender}</TableCell>
                             <TableCell align="right">
                                 <EmployeeStates id={row.id} state={row.state} />
                             </TableCell>

@@ -4,7 +4,6 @@ export const employees = [
         first_name: 'Madlen',
         last_name: 'Grafhom',
         email: 'mgrafhom0@so-net.ne.jp',
-        gender: 'Female',
         state: 'ADDED',
     },
     {
@@ -12,7 +11,6 @@ export const employees = [
         first_name: 'Richy',
         last_name: 'Neve',
         email: 'rneve1@dot.gov',
-        gender: 'Male',
         state: 'ACTIVE',
     },
     {
@@ -20,7 +18,6 @@ export const employees = [
         first_name: 'Davidde',
         last_name: 'Writtle',
         email: 'dwrittle2@vkontakte.ru',
-        gender: 'Male',
         state: 'APPROVED',
     },
     {
@@ -28,7 +25,6 @@ export const employees = [
         first_name: 'Cece',
         last_name: 'Carette',
         email: 'ccarette3@cnet.com',
-        gender: 'Male',
         state: 'ADDED',
     },
     {
@@ -36,7 +32,6 @@ export const employees = [
         first_name: 'Klarrisa',
         last_name: 'Simonot',
         email: 'ksimonot4@geocities.jp',
-        gender: 'Female',
         state: 'IN-CHECK',
     },
     {
@@ -44,7 +39,6 @@ export const employees = [
         first_name: 'Yard',
         last_name: 'Benyon',
         email: 'ybenyon5@upenn.edu',
-        gender: 'Male',
         state: 'INACTIVE',
     },
     {
@@ -52,7 +46,6 @@ export const employees = [
         first_name: 'Ami',
         last_name: 'Ditzel',
         email: 'aditzel6@list-manage.com',
-        gender: 'Female',
         state: 'ADDED',
     },
     {
@@ -60,7 +53,6 @@ export const employees = [
         first_name: 'Aubree',
         last_name: 'Hannabus',
         email: 'ahannabus7@unc.edu',
-        gender: 'Female',
         state: 'ADDED',
     },
     {
@@ -68,7 +60,6 @@ export const employees = [
         first_name: 'Cally',
         last_name: 'Rowena',
         email: 'crowena8@constantcontact.com',
-        gender: 'Female',
         state: 'ADDED',
     },
     {
@@ -76,7 +67,6 @@ export const employees = [
         first_name: 'Murielle',
         last_name: 'Laughren',
         email: 'mlaughren9@nyu.edu',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -84,7 +74,6 @@ export const employees = [
         first_name: 'Shirleen',
         last_name: 'Vanyushin',
         email: 'svanyushina@japanpost.jp',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -92,7 +81,6 @@ export const employees = [
         first_name: 'Sal',
         last_name: 'Berni',
         email: 'sbernib@skyrock.com',
-        gender: 'Male',
         state: 'APPROVED',
     },
     {
@@ -100,7 +88,6 @@ export const employees = [
         first_name: 'Yoko',
         last_name: 'Cord',
         email: 'ycordc@army.mil',
-        gender: 'Female',
         state: 'INACTIVE',
     },
     {
@@ -108,7 +95,6 @@ export const employees = [
         first_name: 'Rolland',
         last_name: 'Housecroft',
         email: 'rhousecroftd@soup.io',
-        gender: 'Male',
         state: 'INACTIVE',
     },
     {
@@ -116,7 +102,6 @@ export const employees = [
         first_name: 'Milly',
         last_name: 'Eouzan',
         email: 'meouzane@flavors.me',
-        gender: 'Female',
         state: 'IN-CHECK',
     },
     {
@@ -124,7 +109,6 @@ export const employees = [
         first_name: 'Joyce',
         last_name: 'Quantrell',
         email: 'jquantrellf@mtv.com',
-        gender: 'Female',
         state: 'IN-CHECK',
     },
     {
@@ -132,7 +116,6 @@ export const employees = [
         first_name: 'Christy',
         last_name: 'Beazleigh',
         email: 'cbeazleighg@issuu.com',
-        gender: 'Male',
         state: 'IN-CHECK',
     },
     {
@@ -140,7 +123,6 @@ export const employees = [
         first_name: 'Sandra',
         last_name: 'Plaistowe',
         email: 'splaistoweh@hexun.com',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -148,7 +130,6 @@ export const employees = [
         first_name: 'Bevan',
         last_name: 'Curley',
         email: 'bcurleyi@miitbeian.gov.cn',
-        gender: 'Male',
         state: 'INACTIVE',
     },
     {
@@ -156,7 +137,6 @@ export const employees = [
         first_name: 'Ivonne',
         last_name: 'Dorney',
         email: 'idorneyj@etsy.com',
-        gender: 'Female',
         state: 'IN-CHECK',
     },
     {
@@ -164,7 +144,6 @@ export const employees = [
         first_name: 'Mauricio',
         last_name: 'Laville',
         email: 'mlavillek@google.de',
-        gender: 'Male',
         state: 'ACTIVE',
     },
     {
@@ -172,7 +151,6 @@ export const employees = [
         first_name: 'Cindy',
         last_name: 'Wippermann',
         email: 'cwippermannl@statcounter.com',
-        gender: 'Female',
         state: 'IN-CHECK',
     },
     {
@@ -180,7 +158,6 @@ export const employees = [
         first_name: 'Malorie',
         last_name: 'Foystone',
         email: 'mfoystonem@printfriendly.com',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -188,7 +165,6 @@ export const employees = [
         first_name: 'Charyl',
         last_name: 'Bladge',
         email: 'cbladgen@sourceforge.net',
-        gender: 'Female',
         state: 'ACTIVE',
     },
     {
@@ -196,7 +172,6 @@ export const employees = [
         first_name: 'Ambur',
         last_name: 'Rablin',
         email: 'arablino@howstuffworks.com',
-        gender: 'Female',
         state: 'ACTIVE',
     },
     {
@@ -204,7 +179,6 @@ export const employees = [
         first_name: 'Kare',
         last_name: 'Bredes',
         email: 'kbredesp@ed.gov',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -212,7 +186,6 @@ export const employees = [
         first_name: 'Fanechka',
         last_name: 'Bampford',
         email: 'fbampfordq@nationalgeographic.com',
-        gender: 'Female',
         state: 'ADDED',
     },
     {
@@ -220,7 +193,6 @@ export const employees = [
         first_name: 'Monika',
         last_name: 'Bloodworth',
         email: 'mbloodworthr@ehow.com',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -228,7 +200,6 @@ export const employees = [
         first_name: 'Adrien',
         last_name: 'Dougary',
         email: 'adougarys@hhs.gov',
-        gender: 'Male',
         state: 'APPROVED',
     },
     {
@@ -236,7 +207,6 @@ export const employees = [
         first_name: "D'arcy",
         last_name: 'Auston',
         email: 'daustont@about.com',
-        gender: 'Male',
         state: 'ADDED',
     },
     {
@@ -244,7 +214,6 @@ export const employees = [
         first_name: 'Annabel',
         last_name: 'Carmen',
         email: 'acarmenu@wix.com',
-        gender: 'Female',
         state: 'ADDED',
     },
     {
@@ -252,7 +221,6 @@ export const employees = [
         first_name: 'Dannie',
         last_name: 'Drinkall',
         email: 'ddrinkallv@geocities.com',
-        gender: 'Female',
         state: 'ACTIVE',
     },
     {
@@ -260,7 +228,6 @@ export const employees = [
         first_name: 'Dale',
         last_name: 'Shepheard',
         email: 'dshepheardw@is.gd',
-        gender: 'Male',
         state: 'ACTIVE',
     },
     {
@@ -268,7 +235,6 @@ export const employees = [
         first_name: 'Waldo',
         last_name: 'Giral',
         email: 'wgiralx@telegraph.co.uk',
-        gender: 'Male',
         state: 'IN-CHECK',
     },
     {
@@ -276,7 +242,6 @@ export const employees = [
         first_name: 'Belva',
         last_name: 'Dehn',
         email: 'bdehny@wikipedia.org',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -284,7 +249,6 @@ export const employees = [
         first_name: 'Bryna',
         last_name: 'Luety',
         email: 'bluetyz@theguardian.com',
-        gender: 'Female',
         state: 'INACTIVE',
     },
     {
@@ -292,7 +256,6 @@ export const employees = [
         first_name: 'Maddalena',
         last_name: 'Petraitis',
         email: 'mpetraitis10@nhs.uk',
-        gender: 'Female',
         state: 'IN-CHECK',
     },
     {
@@ -300,7 +263,6 @@ export const employees = [
         first_name: 'Hersh',
         last_name: 'Jaher',
         email: 'hjaher11@arizona.edu',
-        gender: 'Male',
         state: 'ACTIVE',
     },
     {
@@ -308,7 +270,6 @@ export const employees = [
         first_name: 'Alberto',
         last_name: 'Tabbernor',
         email: 'atabbernor12@bandcamp.com',
-        gender: 'Male',
         state: 'ADDED',
     },
     {
@@ -316,7 +277,6 @@ export const employees = [
         first_name: 'Powell',
         last_name: 'Simmill',
         email: 'psimmill13@sitemeter.com',
-        gender: 'Male',
         state: 'ACTIVE',
     },
     {
@@ -324,7 +284,6 @@ export const employees = [
         first_name: 'Domenico',
         last_name: 'Walworth',
         email: 'dwalworth14@marriott.com',
-        gender: 'Male',
         state: 'APPROVED',
     },
     {
@@ -332,7 +291,6 @@ export const employees = [
         first_name: 'Dorelia',
         last_name: 'Rohlfing',
         email: 'drohlfing15@prlog.org',
-        gender: 'Female',
         state: 'ACTIVE',
     },
     {
@@ -340,7 +298,6 @@ export const employees = [
         first_name: 'Porter',
         last_name: 'Bollin',
         email: 'pbollin16@t-online.de',
-        gender: 'Male',
         state: 'INACTIVE',
     },
     {
@@ -348,7 +305,6 @@ export const employees = [
         first_name: 'Dodi',
         last_name: 'McKim',
         email: 'dmckim17@macromedia.com',
-        gender: 'Female',
         state: 'ACTIVE',
     },
     {
@@ -356,7 +312,6 @@ export const employees = [
         first_name: 'Emili',
         last_name: 'Angrock',
         email: 'eangrock18@cbc.ca',
-        gender: 'Female',
         state: 'APPROVED',
     },
     {
@@ -364,7 +319,6 @@ export const employees = [
         first_name: 'Colby',
         last_name: 'Callard',
         email: 'ccallard19@pagesperso-orange.fr',
-        gender: 'Male',
         state: 'ADDED',
     },
     {
@@ -372,7 +326,6 @@ export const employees = [
         first_name: 'Mikol',
         last_name: 'Hrinchishin',
         email: 'mhrinchishin1a@paginegialle.it',
-        gender: 'Male',
         state: 'IN-CHECK',
     },
     {
@@ -380,7 +333,6 @@ export const employees = [
         first_name: 'Eadmund',
         last_name: 'Hourihan',
         email: 'ehourihan1b@pagesperso-orange.fr',
-        gender: 'Male',
         state: 'APPROVED',
     },
     {
@@ -388,7 +340,6 @@ export const employees = [
         first_name: 'Currey',
         last_name: 'Docket',
         email: 'cdocket1c@zdnet.com',
-        gender: 'Male',
         state: 'IN-CHECK',
     },
     {
@@ -396,7 +347,6 @@ export const employees = [
         first_name: 'Hanny',
         last_name: 'Chrishop',
         email: 'hchrishop1d@ocn.ne.jp',
-        gender: 'Female',
         state: 'ADDED',
     },
 ]
