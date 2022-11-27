@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Box, Stack, Typography } from '@mui/material'
 
 import { Employees } from './components/Employees'
+import { NewEmployee } from './components/NewEmployee'
 
 export const Dashboard = () => (
     <Box padding={2}>
@@ -11,9 +12,10 @@ export const Dashboard = () => (
                     Workmotion Frontend Challenge
                 </Typography>
             </Box>
-            <Box padding={2}>
+            <Stack spacing={2}>
+                <NewEmployee />
                 <Employees />
-            </Box>
+            </Stack>
         </Stack>
     </Box>
 )
